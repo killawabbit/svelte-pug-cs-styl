@@ -1,0 +1,110 @@
+{
+"Svelte file with Pug, CoffeeScript and Stylus": {
+	"scope": "svelte",
+	"prefix": "s-t-pug-cs-styl",
+	"body": [
+		"<script lang=\"coffeescript\">",
+		"\t$1",
+		"</script>\n",
+		"<style lang=\"stylus\">",
+		"\t$2",
+		"</style>\n",
+		"<!-- prettier-ignore -->",
+		"<template lang=\"pug\">",
+		"\t$3",
+		"</template>"
+	],
+	"description": "Template for a svelte file using Pug.js for HTML preprocessor (with prettier-ignore because using javascript variables in pug inside a svelte file is compromised by prettier at the moment)"
+	},
+	"Svelte IF block in Pug": {
+	"scope": "svelte",
+	"prefix": "s-pug-if",
+	"body": [
+		"+if ('$1')",
+		"\t$2"
+	],
+	"description": "Template for a Svelte IF block in pug inside a svelte file"
+	},
+	"Svelte IF/ELSE statement in Pug": {
+	"scope": "svelte",
+	"prefix": "s-pug-if-else",
+	"body": [
+		"+if ('$1')",
+		"\t$2",
+		"\t\t+else",
+		"\t\t\t$3"
+	],
+	"description": "Template for a Svelte IF/ELSE block in pug inside a svelte file"
+	},
+	"Svelte FOR statement in Pug": {
+	"scope": "svelte",
+	"prefix": "s-pug-for",
+	"body": [
+		"+for ('$1')",
+		"\t$2",
+	],
+	"description": "Template for a Svelte FOR block in pug inside a svelte file"
+	},
+	"Svelte EACH statement in Pug": {
+	"scope": "svelte",
+	"prefix": "s-pug-each",
+	"body": [
+		"+each ('$1')",
+		"\t$2"
+	],
+	"description": "Template for a Svelte EACH block in pug inside a svelte file"
+	},
+	"Svelte +key statement in Pug": {
+	"scope": "svelte",
+	"prefix": "s-pug-key",
+	"body": [
+		"+key ('$1')",
+		"\t$2"
+	],
+	"description": "Template for a Svelte KEY block in pug inside a svelte file"
+	},
+	"Svelte AWAIT statement in Pug": {
+	"scope": "svelte",
+	"prefix": "s-pug-await",
+	"body": [
+		"+await ('$1')",
+		"\t$2"
+	],
+	"description": "Template for a Svelte AWAIT block in pug inside a svelte file"
+	},
+	"Svelte HTML statement in Pug": {
+	"scope": "svelte",
+	"prefix": "s-pug-html",
+	"body": [
+		"+html ('$1')",
+		"\t$2"
+	],
+	"description": "Template for a Svelte HTML statement in pug inside a svelte file"
+	},
+	"Svelte CATCH statement in Pug": {
+	"scope": "svelte",
+	"prefix": "s-pug-catch",
+	"body": [
+		"+catch ('$1')",
+		"\t$2"
+	],
+	"description": "Template for a Svelte CATCH statement in pug inside a svelte file"
+	},
+	"Svelte THEN statement in Pug": {
+	"scope": "svelte",
+	"prefix": "s-pug-html",
+	"body": [
+		"+html ('$1')",
+	],
+	"description": "Template for a Svelte THEN statement in pug inside a svelte file"
+	},
+	"Svelte DEBUG block in Pug": {
+	"scope": "svelte",
+	"prefix": "s-pug-debug",
+	"body": [
+		"+debug ('$1')",
+		"\t$2"
+	],
+	"description": "Template for a Svelte DEBUG block in pug inside a svelte file"
+	},
+}
