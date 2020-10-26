@@ -84,6 +84,8 @@ Snippets you might also like [Svelte 3 Snippets by fivethree](https://marketplac
 
 >***s-pug-debug*** - adds a Svelte DEBUG block Pug-style
 
+more will come before 1.0 release
+
 ### Caveats!
 
 While the three featured languages in this starter template are supported in Svelte PreProcessor, not all their syntax will be recognised as valid in VS Code with the official svelte plugin. To escape any faulty nagging error messages you can turn of typescript diagnostics for the svelte plugin 
