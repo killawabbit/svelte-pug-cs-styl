@@ -63,15 +63,25 @@ Snippets you might also like [Svelte 3 Snippets by fivethree](https://marketplac
 **As some sugar on top** I've added a few snippets for [VS Code](https://code.visualstudio.com/) to get you started even faster:
 
 >***s-t-pug-cs-styl*** - adds a Svelte File Template for PugJS as markup language, CoffeeScript for script and Stylus for style
+
 >***s-pug-if*** - adds a Svelte IF block Pug-style
+
 >***s-pug-if-else*** - adds a Svelte IF-ELSE block Pug-style
+
 >***s-pug-for*** - adds a Svelte FOR block Pug-style
+
 >***s-pug-each*** - adds a Svelte EACH block Pug-style
+
 >***s-pug-key*** - adds a Svelte KEY block Pug-style
+
 >***s-pug-await*** - adds a Svelte AWAIT block Pug-style
+
 >***s-pug-then*** - adds a Svelte THEN block Pug-style
+
 >***s-pug-catch*** - adds a Svelte CATCH block Pug-style
+
 >***s-pug-html*** - adds a Svelte HTML block Pug-style
+
 >***s-pug-debug*** - adds a Svelte DEBUG block Pug-style
 
 ### Caveats!
