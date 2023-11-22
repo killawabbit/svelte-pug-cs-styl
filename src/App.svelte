@@ -1,4 +1,4 @@
-<script lang="coffeescript">
+<script>
 
   import { resourceLinks,  totalResourceLinks, createNewLink } from './resources/links.js'
 
